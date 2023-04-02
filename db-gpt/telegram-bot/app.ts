@@ -1,4 +1,10 @@
 import { APIGatewayProxyEvent, APIGatewayProxyResult } from 'aws-lambda';
+import { Telegraf } from  'telegraf';
+import serverless from 'serverless-http';
+
+import * as dotenv from 'dotenv';
+dotenv.config()
+
 
 /**
  *
